@@ -1,0 +1,49 @@
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\MyFirstMvcApp.dll.config
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\MyFirstMvcApp.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\MyFirstMvcApp.pdb
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Helpers.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Razor.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Webpages.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Razor.xml
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Webpages.xml
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Helpers.xml
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\obj\Debug\MyFirstMvcApp.csprojResolveAssemblyReference.cache
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\obj\Debug\MyFirstMvcApp.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\obj\Debug\MyFirstMvcApp.pdb
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\EntityFramework.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\EntityFramework.xml
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Mvc.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\System.Web.Mvc.xml
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\EncryptStringSample.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\MyFirstMvcApp\bin\EncryptStringSample.pdb
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\MyFirstMvcApp.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\MyFirstMvcApp.pdb
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\EncryptStringSample.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\EntityFramework.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\EntityFramework.SqlServer.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.Helpers.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.Mvc.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.Razor.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.WebPages.Deployment.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.WebPages.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.WebPages.Razor.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\EncryptStringSample.pdb
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\EntityFramework.xml
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\EntityFramework.SqlServer.xml
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.Helpers.xml
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.Mvc.xml
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.Razor.xml
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.WebPages.xml
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.WebPages.Deployment.xml
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\bin\System.Web.WebPages.Razor.xml
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\obj\Debug\MyFirstMvcApp.csprojResolveAssemblyReference.cache
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\obj\Debug\MyFirstMvcApp.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\MyFirstMvcApp\obj\Debug\MyFirstMvcApp.pdb

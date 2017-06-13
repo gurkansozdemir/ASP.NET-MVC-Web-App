@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <!--Bootstrap css-->
+    <link href="~/Assets/Dist/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Custom css-->
+    <link href="~/Assets/Page/User/css/login.css" rel="stylesheet" />
+
+    <!--Bootstrap js-->
+    <script src="~/Assets/Dist/Bootstrap/js/jquery-1.9.1.min.js"></script>
+    <script src="~/Assets/Dist/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Assets/Dist/Bootstrap/js/jquery.validate.js"></script>
+
+    <!--Custom js-->
+    <script src="~/Assets/Page/User/js/login.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-md-offset-4">
+                <h1 class="text-center login-title">Giriş Yap</h1>
+                <div class="account-wall">
+                    <img class="profile-img" src="~/Assets/Page/User/images/user-default.png" alt="">
+                    <form class="form-signin" id="form-login">
+                        @if (Model != null)
+                        {
+                            <input type="text" class="form-control" placeholder="Kullanıcı Adı" name="username" id="username" value="@Model["username"]" required autofocus>
+                            <input type="password" class="form-control" placeholder="Parola" name="password" id="password" value="@Model["password"]" required>
+                        }
+                        else
+                        {
+                            <input type="text" class="form-control" placeholder="Kullanıcı Adı" name="username" id="username" required autofocus>
+                            <input type="password" class="form-control" placeholder="Parola" name="password" id="password" required>
+                        }
+                        <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="login()">
+                            Giriş Yap
+                        </button>
+                        <label class="checkbox pull-left">
+                            <input type="checkbox" value="off" id="rememberMe" name="rememberMe">
+                            Beni Hatırla
+                        </label>
+                        <a href="/User/ForgotPassword" class="pull-right need-help">Şifremi Unuttum </a><span class="clearfix"></span>
+                    </form>
+                </div>
+                <a href="/User/Register" class="text-center new-account">Yeni hesap oluştur</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Kayıt Ol</title>
+    <!--Bootstrap css-->
+    <link href="~/Assets/Dist/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Custom css-->
+    <link href="~/Assets/Page/User/css/register.css" rel="stylesheet" />
+
+    <!--Bootstrap js-->
+    <script src="~/Assets/Dist/Bootstrap/js/jquery-1.9.1.min.js"></script>
+    <script src="~/Assets/Dist/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Assets/Dist/Bootstrap/js/jquery.validate.js"></script>
+    <!--Custom js-->
+    <script src="~/Assets/Page/User/js/register.js"></script>
+
+    <!-- Website Font style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row main">
+            <div class="main-login main-center" style="margin-top:30px;">
+                <form class="form-horizontal" id="form-register">
+                    <div class="panel-heading">
+                        <h1 class="text-center login-title">Kayıt Ol</h1>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="cols-sm-2 control-label">Ad</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Adınızı giriniz" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="cols-sm-2 control-label">Soyad</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Soyadınızı giriniz" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="cols-sm-2 control-label">E-posta</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                <input type="text" class="form-control" name="email" id="email" placeholder="E-posta adresinizi giriniz" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="cols-sm-2 control-label">Kullanıcı Adı</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                                <input type="text" class="form-control" name="username" id="username" placeholder="Kullanıcı adınızı giriniz" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="cols-sm-2 control-label">Parola</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Parolanızı giriniz" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm" class="cols-sm-2 control-label">Parola (Tekrar)</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                <input type="password" class="form-control" name="confirm" id="confirm" placeholder="Paralonızı tekrar giriniz" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block login-button" onclick="InsertUser()">Kayıt Ol</button>
+                    </div>
+                    <div class="login-register">
+                        <a href="/User/Login">Giriş Yap</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        @Html.Partial("~/Views/Modals/insertUserSuccessModal.cshtml");
+</body>
+</html>

@@ -1,0 +1,8 @@
+﻿.container {
+    padding-top: 25px;
+}
+
+.panel-heading > p {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}

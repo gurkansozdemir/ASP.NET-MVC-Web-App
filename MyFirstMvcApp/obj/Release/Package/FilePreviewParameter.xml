@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="gurkanmvc" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Gurkan\\Desktop\\MyProjects\\MyMvcProject\\MyFirstMvcApp\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Gurkan\\Desktop\\MyProjects\\MyMvcProject\\MyFirstMvcApp\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="CommerceDbEntities-Web.config Connection String" description="" value="metadata=res://*/Models.CommerceDb.csdl|res://*/Models.CommerceDb.ssdl|res://*/Models.CommerceDb.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=gurkanserver.database.windows.net;Initial Catalog=CommerceDb;Persist Security Info=True;User ID=gurkansozdemir;Password=Bote130915026*;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Gurkan\\Desktop\\MyProjects\\MyMvcProject\\MyFirstMvcApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CommerceDbEntities']/@connectionString" />
+  </parameter>
+</parameters>

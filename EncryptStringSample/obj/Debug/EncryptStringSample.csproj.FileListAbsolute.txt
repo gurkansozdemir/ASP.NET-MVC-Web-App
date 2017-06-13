@@ -1,0 +1,10 @@
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\EncryptStringSample\bin\Debug\EncryptStringSample.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\EncryptStringSample\bin\Debug\EncryptStringSample.pdb
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\EncryptStringSample\obj\Debug\EncryptStringSample.csprojResolveAssemblyReference.cache
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\EncryptStringSample\obj\Debug\EncryptStringSample.dll
+C:\Users\Gurkan\Desktop\MyProjects\MyMvcProject\EncryptStringSample\obj\Debug\EncryptStringSample.pdb
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\EncryptStringSample\bin\Debug\EncryptStringSample.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\EncryptStringSample\bin\Debug\EncryptStringSample.pdb
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\EncryptStringSample\obj\Debug\EncryptStringSample.csprojResolveAssemblyReference.cache
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\EncryptStringSample\obj\Debug\EncryptStringSample.dll
+D:\Google Driver\My Applications\ASP.Net\MyMvcProject\EncryptStringSample\obj\Debug\EncryptStringSample.pdb

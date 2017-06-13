@@ -1,0 +1,70 @@
+﻿@using MyFirstMvcApp.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>productUpdate</title>
+    <!--Bootstrap css-->
+    <link href="~/Assets/Dist/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Custom css-->
+    <link href="~/Assets/Page/Product/css/mainTamplate.css" rel="stylesheet" />
+
+    <!--Bootstrap js-->
+    <script src="~/Assets/Dist/Bootstrap/js/jquery-1.9.1.min.js"></script>
+    <script src="~/Assets/Dist/Bootstrap/js/bootstrap.min.js"></script>
+    <!--Custom js-->
+    <script src="~/Assets/Page/Product/js/productUpdate.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">Ürün Güncelle</div>
+            <div class="panel-body">
+                <form id="formUpdate">
+                    <div class="form-group">
+                        <label for="Name">Ürün Adı:</label>
+                        <input type="text" class="form-control" name="ProductName" id="ProductName" value="@Model.selectedProduct.ProductName">
+                    </div>
+                    <div class="form-group">
+                        <label for="CategoryId">Kategori</label>
+                        <select class="form-control" id="CategoryId" name="CategoryId">
+                            @* Dropdown içini doldurur düzenlenen ürünün kategorisini seçili yapar *@
+                            @foreach (Category cat in Model.listCategory)
+                            {
+                                if (Model.selectedProduct.CategoryId == cat.Id)
+                                {
+                                    <option selected="selected" value="@cat.Id">@cat.CategoryName</option>
+                                }
+                                else
+                                {
+                                    <option value="@cat.Id">@cat.CategoryName</option>
+                                }
+                            }
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Brand">Brand:</label>
+                        <input type="text" class="form-control" name="Brand" id="Brand" value="@Model.selectedProduct.Brand">
+                    </div>
+                    @*
+                        Seçilen ürünün id'sini hidden bir input'un value'suna atar.
+                        Bu işlemi updateProduct() action'ında yakalayıp veritabanında güncellemek için yapar.
+                    *@
+                    <input type="hidden" name="Id" value="@Model.selectedProduct.Id">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-success" onclick="showUpdateModal()">Güncelle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    @Html.Partial("~/Views/Modals/updateProductModal.cshtml")
+    @Html.Partial("~/Views/Modals/updateProductSuccessModal.cshtml")
+</body>
+</html>

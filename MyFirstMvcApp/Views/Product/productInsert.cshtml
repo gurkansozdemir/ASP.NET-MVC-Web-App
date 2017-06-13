@@ -1,0 +1,57 @@
+﻿@using MyFirstMvcApp.Models
+@Html.Partial("~/Views/Modals/insertProductSuccessModal.cshtml")
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ürün Ekle</title>
+    <!--Bootstrap css-->
+    <link href="~/Assets/Dist/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Custom css-->
+    <link href="~/Assets/Page/Product/css/mainTamplate.css" rel="stylesheet" />
+
+    <!--Bootstrap js-->
+    <script src="~/Assets/Dist/Bootstrap/js/jquery-1.9.1.min.js"></script>
+    <script src="~/Assets/Dist/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Assets/Dist/Bootstrap/js/jquery.validate.js"></script>
+    <!--Custom js-->
+    <script src="~/Assets/Page/Product/js/productInsert.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">Ürün Ekle</div>
+            <div class="panel-body">
+                <form id="formInsert">
+                    <div class="form-group">
+                        <label for="Name">Ürün Adı:</label>
+                        <input type="text" class="form-control" name="ProductName" id="ProductName">
+                    </div>
+                    <div class="form-group">
+                        <label for="CategoryId">Kategori</label>
+                        <select class="form-control" id="CategoryId" name="CategoryId">
+                            @foreach (Category cat in Model)
+                            {
+                                <option value="@cat.Id">@cat.CategoryName</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="Brand">Marka</label>
+                        <input type="text" class="form-control" name="Brand" id="Brand">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success" onclick="productInsert()">Ekle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

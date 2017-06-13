@@ -1,0 +1,65 @@
+﻿@using MyFirstMvcApp.Models
+@model List<Product>
+@{
+    Layout = null;
+    User user = (User)Session["UserInfo"] ?? new User();
+}
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ürünler</title>
+
+    <!--Bootstrap css-->
+    <link href="~/Assets/Dist/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--DataTable css-->
+    <link href="~/Assets/Dist/DataTable/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="~/Assets/Dist/DataTable/css/responsive.dataTables.min.css" rel="stylesheet" />
+    <!--Custom css-->
+    <link href="~/Assets/Page/Product/css/mainTamplate.css" rel="stylesheet" />
+
+    <!--Bootstrap js-->
+    <script src="~/Assets/Dist/Bootstrap/js/jquery-1.9.1.min.js"></script>
+    <script src="~/Assets/Dist/Bootstrap/js/bootstrap.min.js"></script>
+    <!--DataTable js-->
+    <script src="~/Assets/Dist/DataTable/js/jquery.dataTables.min.js"></script>
+    <script src="~/Assets/Dist/DataTable/js/responsive.dataTables.min.js"></script>
+    <!--Custom js-->
+    <script src="~/Assets/Page/Product/js/productList.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h3 class="col-md-4">Hoşgeldiniz @(user.FirstName + " " + user.LastName)</h3>
+        <a href="/User/Logout" class="btn btn-danger col-md-offset-6">Çıkış Yap</a>
+    </div>
+    <div class="container">
+        <div class="bs-example" data-example-id="table-within-panel">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p class="col-xs-3 col-sm-3 col-md-3">Ürünler</p>
+                    <a class="btn btn-success col-xs-offset-4 col-sm-offset-7 col-md-offset-7" href="/ürün/ekle">Yeni Ürün</a>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <table class="table display responsive nowrap" id="table-productList" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Ürün Adı</th>
+                        <th>Marka</th>
+                        <th>Kategori</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @*Ajax ile dolduruluyor(DataTable)*@
+                </tbody>
+            </table>
+        </div>
+    </div>
+@Html.Partial("~/Views/Modals/deleteProductModal.cshtml")
+</body>
+</html>
